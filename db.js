@@ -7,7 +7,8 @@ db
   // sync the data in your database
   //{ force: true } tables are dropped on every restart
   //deleting all of your data
-  .sync({ force: true })
+  //.sync({ force: true })
+  .sync()
   .then(() => console.log('Database schema updated'))
   .catch(console.error)
 
