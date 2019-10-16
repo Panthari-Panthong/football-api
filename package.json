@@ -4,9 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Panthari-Panthong/football-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Panthari-Panthong/football-api/issues"
+  },
+  "homepage": "https://github.com/Panthari-Panthong/football-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
