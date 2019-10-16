@@ -5,7 +5,9 @@ const db = new Sequelize(databaseUrl)
 
 db
   // sync the data in your database
-  .sync()
+  //{ force: true } tables are dropped on every restart
+  //deleting all of your data
+  .sync({ force: true })
   .then(() => console.log('Database schema updated'))
   .catch(console.error)
 
